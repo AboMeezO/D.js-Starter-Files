@@ -23,7 +23,11 @@ A modern Discord.js starter template featuring CommandKit for command handling, 
 │   │   └── messageCreate/ # Message events
 │   ├── Database/         # Database configuration
 │   │   ├── Config/       # Database configs
+│   │   │   ├── index.js  # Database exports
+│   │   │   ├── Example.js # Example database config
+│   │   │   └── YamlConfig.js # YAML configuration
 │   │   ├── Data/         # Database files
+│   │   │   └── Example.json # Example database data
 │   │   └── Models/       # Database models
 │   ├── Validations/      # Command validations
 │   └── Utils/           # Utility functions
@@ -72,10 +76,10 @@ Token: your_discord_bot_token_here
 
 ### Database Configuration
 
-The template includes two database systems:
+The template includes multiple database systems:
 
 - **YAML Config**: For bot configuration (Config.yaml)
-- **JSON Database**: For application data (src/Database/Data/Random.json)
+- **Example Database**: Additional database for examples (src/Database/Data/Example.json)
 
 ## 📝 Creating Commands
 
@@ -145,13 +149,11 @@ await YamlConfig.set("Key", "Value");
 ### JSON Database
 
 ```javascript
-import { Random } from "./Database/index.js";
+import { Example } from "./Database/index.js";
 
-// Set data
-await Random.set("key", "value");
-
-// Get data
-const data = await Random.get("key");
+// Example Database
+await Example.set("exampleKey", "exampleValue");
+const exampleData = await Example.get("exampleKey");
 ```
 
 ## 📦 Dependencies

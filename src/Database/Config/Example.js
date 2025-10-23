@@ -4,4 +4,4 @@ const Example = new Database({
   driver: new JSONDriver(path.resolve("src/Database/Data/Example.json")),
 });
 
-export default Random;
+export default Example;
