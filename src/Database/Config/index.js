@@ -1,4 +1,4 @@
-import Random from "./Random.js";
+import Example from "./Eandom.js";
 import YamlConfig from "./YamlConfig.js";
 
-export { Random, YamlConfig };
+export { Example, YamlConfig };

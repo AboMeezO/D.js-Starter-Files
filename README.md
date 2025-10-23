@@ -37,8 +37,8 @@ A modern Discord.js starter template featuring CommandKit for command handling, 
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
-   cd Commandkit
+   git clone https://github.com/AboMeezO/D.js-Starter-Files
+   cd D.js-Starter-Files
    ```
 
 2. **Install dependencies**

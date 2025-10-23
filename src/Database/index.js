@@ -1,3 +1,3 @@
-import { Random, YamlConfig } from "./Config/index.js";
+import { Example, YamlConfig } from "./Config/index.js";
 
-export { Random, YamlConfig };
+export { Example, YamlConfig };
