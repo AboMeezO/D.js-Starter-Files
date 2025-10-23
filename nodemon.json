@@ -1,0 +1,7 @@
+{
+  "ignore": [
+    "./src/Database/Data/*",
+    "./src/Database/Data/",
+    "./src/Database/Data/**"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "d.js-starter-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "@AboTasneem",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "commandkit": "^0.1.6",
+    "discord.js": "^14.23.2",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7",
+    "st.db": "^7.2.10",
+    "zod": "^4.1.12"
+  }
+}
