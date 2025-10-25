@@ -8,7 +8,7 @@ export default {
   },
   /**
    *
-   * @type {import('commandkit').SlashCommandProps}
+   * @param {import('commandkit').SlashCommandProps} param0
    */
   run: async ({ interaction, client, handler }) => {
     await interaction.reply("Pong!");
